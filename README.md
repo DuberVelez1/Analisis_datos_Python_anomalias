@@ -27,8 +27,9 @@ Desarrollar un modelo que permita:
 ## 4. Datos Utilizados
 Se utilizarán las siguientes fuentes de información:
 
-🔹 **Ajustes históricos de inventario**
-obtenidos mediante transacción SAP **MI24**
+🔹 **Ajustes históricos de inventario**  
+Obtenidos mediante la transacción SAP **MI24**
+
 
 🔹 **Movimientos de inventario**
 Se utilizará los movimientos que hubo en la semana de cada materia prima, en relacion a los ingresos y consumos, para ello se utilizará la transaccion **MB51**
@@ -43,30 +44,30 @@ Estandarización de variables
 
 -  Análisis exploratorio (EDA)
 
-Distribución de diferencias
-Identificación de patrones por área y material
-Diferencia absoluta y porcentual
-Impacto económico
-Z-score por material
-Frecuencia de ajustes
+Distribución de diferencias 
+Identificación de patrones por área y material 
+Diferencia absoluta y porcentual 
+Impacto económico 
+Z-score por material 
+Frecuencia de ajustes 
 
 - Modelado
 Se aplicarán modelos de detección de anomalías como:
 
-Reglas estadísticas (umbrales)
+Reglas estadísticas (umbrales) 
 (analizando otros)
 
 - Evaluación
 
-Validación con casos históricos
+Validación con casos históricos 
 Comparación con decisiones reales
 
-##6. Tecnologías Utilizadas
+## 6. Tecnologías Utilizadas
 
-Python
-Pandas
-NumPy
-Matplotlib / Seaborn
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
 
 
 ## 7. Resultados Esperados
