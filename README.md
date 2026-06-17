@@ -1,12 +1,12 @@
 # Sistema de Detección de Anomalías en Inventarios de Producción
 
 
-##1. Descripción del Proyecto
+## 1. Descripción del Proyecto
 Este proyecto tiene como objetivo desarrollar un modelo de analítica avanzada en Python para detectar anomalías en los ajustes de inventario de materia prima y semielaborados.
 El sistema permitirá identificar automáticamente diferencias atípicas en cantidad y valor, optimizando el proceso de revisión y reduciendo errores humanos.
 
 
-##2. Problema de Negocio
+## 2. Problema de Negocio
 Actualmente, el proceso de cierre de inventario se realiza de manera semanal, donde cada área realiza conteos físicos y los compara con el inventario teórico en **SAP**.
 
 Este proceso presenta varios desafíos:
@@ -16,7 +16,7 @@ Este proceso presenta varios desafíos:
 - Posibles impactos financieros por ajustes incorrectos
 
 
-##3. Objetivo del Proyecto
+## 3. Objetivo del Proyecto
 Desarrollar un modelo que permita:
 
 - Identificar anomalías en los ajustes de inventario
@@ -24,15 +24,16 @@ Desarrollar un modelo que permita:
 - Reducir el riesgo de errores en el control de inventarios
 - Apoyar la toma de decisiones basada en datos
 
-##4. Datos Utilizados
+## 4. Datos Utilizados
 Se utilizarán las siguientes fuentes de información:
+
 🔹 **Ajustes históricos de inventario**
 obtenidos mediante transacción SAP **MI24**
 
 🔹 **Movimientos de inventario**
 Se utilizará los movimientos que hubo en la semana de cada materia prima, en relacion a los ingresos y consumos, para ello se utilizará la transaccion **MB51**
 
-##5. Metodología
+## 5. Metodología
 El proyecto se desarrollará siguiendo las siguientes etapas:
 
 - Limpieza y preparación de datos
@@ -68,20 +69,20 @@ NumPy
 Matplotlib / Seaborn
 
 
-##7. Resultados Esperados
+## 7. Resultados Esperados
 
 - Identificación automática de ajustes anómalos
 - Clasificación de riesgos (alto, medio, bajo)
 - Reducción del tiempo de revisión manual
 - Mejora en la precisión del control de inventarios
 
-##8. Impacto en el Negocio
+## 8. Impacto en el Negocio
 
 - Optimización del proceso de cierre de inventarios
 - Disminución de errores humanos
 - Mejora en el control financiero
 - Mayor trazabilidad y control de materiales
 
-##9. Autor
+## 9. Autor
 Duberney Velez Moreno
 Auxiliar de Control de Producción
