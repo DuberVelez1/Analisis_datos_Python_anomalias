@@ -70,6 +70,7 @@ Comparación con decisiones reales
 - Matplotlib / Seaborn
 
 
+
 ## 7. Resultados Esperados
 
 - Identificación automática de ajustes anómalos
